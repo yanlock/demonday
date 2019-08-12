@@ -1,4 +1,92 @@
 body{
-    background-color:yellowgreen;
+    background-color:#FF7969;
     margin: 0;
+}
+/* apenas a parte do logo e nome do site */
+nav{
+    background-color: #B32412;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    width: 210vh;
+    padding: 20px;
+}
+.logoSite{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100px;
+    width: 100%;
+}
+nav .logoImg a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 10%;
+    text-decoration:none;
+    margin-left: 60px;
+}
+
+/* logo do site */
+nav img{ 
+    height: auto;
+    width: 50px;
+}
+
+/* título */
+nav h1{
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+/* links de receita e saiba mais */
+
+.divLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.divLinks a{
+    text-decoration:none;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-left: 35px;
+}
+
+/* login e cadastro */
+
+.loginCadastro{
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+
+}
+
+.loginCadastro a{
+    text-decoration:none;
+    text-align: center;
+    font-family: monospace;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+}
+.loginCadastro span{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 20pt;
+}
+
+/* imagem de fundo do site */
+
+header{
+
 }
