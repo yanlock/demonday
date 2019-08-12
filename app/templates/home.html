@@ -1,5 +1,4 @@
 {% load staticfiles %}
-{% extends 'layout.html' %}
 
 <!DOCTYPE html>
 <html lang="pt-br">
@@ -8,13 +7,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static 'css/home.css' %}">
-    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Rochester&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/img/logo.png'">
+    <title>Home</title>
 </head>
 <body>
-    <nav>
-      <title>testando</title>   
-    </nav>
-   
+    <nav id="logoSite">
+        <div class="logoImg">
+            <a class="logo" href="#header">
+                <img src="{% static 'img/logo.png' %}" alt="logo">                            
+                <h1>Sua Receita           </h1>
+            </a>   
+        </div>        
+        <div class="divLinks">
+            <a href="/saiba">Saiba mais</a>
+            <a href="/sobre">Receitas</a>
+        </div>        
+        <div class="loginCadastro">   
+            <a href="/login">Entrar</a>
+            <span>/</span>
+            <a href="/cadastro">Cadastre-se</a>
+        </div>
+    </div>
+</nav>
+<header>
+  
+</header>
     
 </body>
 </html>
