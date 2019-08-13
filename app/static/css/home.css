@@ -8,8 +8,8 @@ nav{
     display: flex;
     justify-content: space-around;
     height: 100px;
-    width: 210vh;
-    padding: 20px;
+    width: 220vh;
+    padding: 10px;
 }
 .logoSite{
     display: flex;
@@ -37,10 +37,11 @@ nav img{
 /* título */
 nav h1{
     text-align: center;
-    font-family: monospace;
+    font-family:'Ma Shan Zheng', cursive;
     color: white;
-    font-size: 30px;
+    font-size: 35px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 /* links de receita e saiba mais */
@@ -54,7 +55,7 @@ nav h1{
 .divLinks a{
     text-decoration:none;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Sanchez', serif;
     color: white;
     font-size: 30px;
     cursor: pointer;
@@ -73,14 +74,14 @@ nav h1{
 .loginCadastro a{
     text-decoration:none;
     text-align: center;
-    font-family: monospace;
+    font-family: 'Sanchez', serif;
     color: white;
     font-size: 30px;
     cursor: pointer;
 }
 .loginCadastro span{
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Sanchez', serif;
     color: white;
     font-size: 20pt;
 }
@@ -88,5 +89,19 @@ nav h1{
 /* imagem de fundo do site */
 
 header{
+    background-image: url("../img/background.jpg!d");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    position: relative;
+}
+
+footer{
 
 }
